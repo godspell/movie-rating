@@ -1,0 +1,23 @@
+
+.header{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.logo{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 50px;
+  padding-right: 40px;
+}
+
+.user-image, .user-image img{
+   margin-top: 12px;
+   margin-right: 125px;
+   width: 10px;
+  cursor: pointer;
+}

@@ -5,7 +5,7 @@ const AppContext = React.createContext();
 
 // const KEY = process.env.API_KEY;
 
-const API_URL = `https://www.omdbapi.com/?i=tt3896198&apikey=82804be4`;
+export const API_URL = `https://www.omdbapi.com/?apikey=82804be4`;
 
 const AppProvider = ({children}) =>{
 

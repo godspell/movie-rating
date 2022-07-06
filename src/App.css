@@ -77,6 +77,10 @@ img {
   margin: 4rem 0;
 }
 
+.movie-search{
+  color: white;
+}
+
 input {
   width: 30rem;
   border-radius: 100px;
@@ -102,7 +106,7 @@ input {
 .movie-section {
   width: 100%;
   height: 100vh;
-  background-color: var(--text-clr);
+  background-color: #0f171e;
   display: grid;
   place-items: center;
 }
@@ -115,7 +119,7 @@ input {
 
 .movie-section .loading {
   font-size: 3.2rem;
-  color: var(--bg-clr);
+  color: #0f171e;
   text-align: center;
 }
 
@@ -123,34 +127,32 @@ input {
   min-width: 30rem;
   width: 50vw;
   /* padding: 1rem; */
-  background-color: var(--bg-clr);
+  background-color: #1a242f;
   display: grid;
   gap: 2rem;
   grid-template-columns: 0.6fr 1fr;
   /* align-items: center; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 2rem;
+  
 }
 
 figure {
   margin: 0;
   padding: 0;
+  object-fit: contain;
 }
 .movie-card img {
   width: 100%;
   height: 100%;
   margin: 0;
   border-radius: 0;
-  border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem;
   /* border-radius: 0; */
   max-height: 50rem;
-  height: auto;
 }
 
 .movie-card .title {
   font-size: 2.8rem;
-  color: var(--text-clr);
+  color: white;
   font-weight: bold;
 }
 
@@ -164,6 +166,7 @@ figure {
 
 .card-text {
   font-size: 1.8rem;
+  color: white;
 }
 
 a {
@@ -197,6 +200,7 @@ a:hover img {
 
 .back-btn {
   padding: 1.2rem 3.6rem;
+  color: white;
 }
 
 /* responsive code   */

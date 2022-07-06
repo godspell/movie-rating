@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 const imgUrl = "https://via.placeholder.com/200/200";
 
 const Movie = () => {
-const { movie, isLoading } = useGlobalcontext();
+const { movie, isloading } = useGlobalcontext();
 
-if (isLoading) {
+if (isloading) {
   return <div className="loading">Loading....</div>
 }
   return (
