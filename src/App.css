@@ -169,6 +169,10 @@ figure {
   color: white;
 }
 
+.card-info img{
+  object-fit: contain;
+}
+
 a {
   text-align: center;
   display: flex;
